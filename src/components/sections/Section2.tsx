@@ -2,7 +2,7 @@ import { Solar } from "../svg/Sun";
 
 function Section2() {
   return (
-    <div className="md:h-[1080px] bg-[#FFE5AF] relative">
+    <div className="md:h-[1080px] bg-[#FFE5AF] relative pb-10">
       <div className="md:h-full">
         <p className="text-[#092754] text-2xl md:text-[64px] font-bold p-10 md:px-36">
           How it works?
@@ -33,7 +33,7 @@ function Section2() {
           </div>
         </div>
       </div>
-      <div className="absolute right-0 top-0">
+      <div className="absolute right-0 top-0 w-10 md:w-fit">
         <Solar />
       </div>
     </div>
@@ -44,7 +44,7 @@ export { Section2 };
 
 function PictureBase({ text }: { text: string }) {
   return (
-    <div className="h-[114px] w-full mt-[-114px] rounded-b-[100px] bg-[#092754] opacity-20 overflow-hidden group-hover:opacity-100 flex items-center justify-between p-10">
+    <div className="hidden h-[114px] w-full mt-[-114px] rounded-b-[100px] bg-[#092754] opacity-20 overflow-hidden group-hover:opacity-100 md:flex items-center justify-between p-10">
       <p className="text-[#FFE5AF] text-[32px] select-none line-clamp-1">
         {text}
       </p>

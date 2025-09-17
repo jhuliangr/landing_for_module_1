@@ -1,5 +1,5 @@
 import Button from "../Button";
-import Waves from "../svg/Waves";
+import { WavesGroup } from "../WavesGroup";
 
 function Section1() {
   return (
@@ -24,10 +24,7 @@ function Section1() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-10 left-5 flex gap-5 text-[#C1C9D4]">
-          <Waves className="w-20 md:w-fit md:block" />
-          <Waves className="w-20 md:w-fit md:block" />
-        </div>
+        <WavesGroup position="absolute bottom-10 left-5" />
       </div>
       <div className="grid grid-cols-3 md:grid-cols-8 gap-5 px-5 md:px-0 pb-20">
         <div className="md:col-span-3 flex items-center">
