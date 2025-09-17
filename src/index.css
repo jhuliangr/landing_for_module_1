@@ -2,7 +2,12 @@
 @import '@fontsource/poppins';
 
 @layer base {
-  html {
+  nav ul {
+    list-style: none;
+  }
+
+  h1 {
+    font-weight: 900;
     font-family: 'Poppins', sans-serif;
   }
 }
