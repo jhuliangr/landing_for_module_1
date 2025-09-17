@@ -1,8 +1,27 @@
 @import 'tailwindcss';
-@import '@fontsource/poppins';
+
+@theme {
+  --color-primary: #092754;
+  --color-secondary: #FFE5AF;
+}
+
+/* poppins-latin-100-900-normal */
+@font-face {
+    font-family: 'Poppins Variable';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2')
+        format('woff2-variations');
+}
 
 @layer base {
-  html {
+  nav ul {
+    list-style: none;
+  }
+
+  h1 {
+    font-weight: 900;
     font-family: 'Poppins', sans-serif;
   }
 }
