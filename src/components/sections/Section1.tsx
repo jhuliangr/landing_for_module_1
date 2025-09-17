@@ -25,19 +25,28 @@ function Section1() {
           </div>
         </div>
         <div className="absolute bottom-10 left-5 flex gap-5 text-[#C1C9D4]">
-          <Waves className="hidden md:block"/>
-          <Waves className="hidden md:block"/>
+          <Waves className="w-20 md:w-fit md:block" />
+          <Waves className="w-20 md:w-fit md:block" />
         </div>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-8 gap-5 px-5 md:px-0">
+      <div className="grid grid-cols-3 md:grid-cols-8 gap-5 px-5 md:px-0 pb-20">
         <div className="md:col-span-3 flex items-center">
-          <img src="/assets/pictures/1.png" className="h-48 md:h-[699px] object-cover rounded-[100px]" />
+          <img
+            src="/assets/pictures/1.png"
+            className="h-48 md:h-[699px] object-cover rounded-[100px]"
+          />
         </div>
         <div className="md:col-span-2 flex items-center">
-          <img src="/assets/pictures/2.png" className="h-48 md:h-[699px] object-cover rounded-[100px]" />
+          <img
+            src="/assets/pictures/2.png"
+            className="h-48 md:h-[699px] object-cover rounded-[100px]"
+          />
         </div>
         <div className="flex items-center">
-          <img src="/assets/pictures/1.png" className="h-48 md:h-[699px] object-cover rounded-[100px]" />
+          <img
+            src="/assets/pictures/1.png"
+            className="h-48 md:h-[699px] object-cover rounded-[100px]"
+          />
         </div>
         <div className="hidden md:block col-span-2"></div>
       </div>
@@ -45,4 +54,4 @@ function Section1() {
   );
 }
 
-export default Section1;
+export { Section1 };
