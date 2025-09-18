@@ -1,11 +1,7 @@
+import { SITEMAP } from "../constants";
 import Logo from "./svg/Logo";
 
-const sitemap = [
-  { url: "/", text: "Home" },
-  { url: "steps", text: "How it works?" },
-  { url: "/features", text: "Features" },
-  { url: "/about-us", text: "About us" },
-];
+
 
 function Header() {
   return (
@@ -16,7 +12,7 @@ function Header() {
       </a>
       <nav className="max-md:hidden">
         <ul className="flex justify-between gap-10">
-          {sitemap.map((link) => (
+          {SITEMAP.map((link) => (
             <li key={link.url}>
               <a href={`${link.url}`} className="text-white hover:text-secondary font-normal text-3xl">{link.text}</a>
             </li>

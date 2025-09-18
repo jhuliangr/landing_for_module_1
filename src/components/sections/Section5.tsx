@@ -7,7 +7,7 @@ function Section5() {
         <p className="text-primary text-[64px] font-bold">
           Enjoy the beach as it should be: worry-free.
         </p>
-        <p className="text-[30px] w-[70%]">
+        <p className="text-3xl w-[70%]">
           The beach is for experiencing, not worrying about your belongings.
           With SafeBox, you have the freedom to swim, stroll, or relax knowing
           everything is safe.

@@ -44,7 +44,7 @@ function Section3() {
               <item.icon />
             </div>
             <p className="text-[50px] font-bold">{item.title}</p>
-            <p className="text-[30px]">{item.text}</p>
+            <p className="text-3xl">{item.text}</p>
           </div>
         ))}
       </div>
