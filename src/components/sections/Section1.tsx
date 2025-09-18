@@ -7,7 +7,7 @@ function Section1() {
       <div className="relative h-[100vh] md:h-full">
         <div className="h-full flex justify-center items-center max-w-[100vw]">
           <div className="flex flex-col justify-center items-center w-[80%] md:w-[654px] gap-10">
-            <p className="text-[#092754] text-2xl md:text-[64px] font-bold">
+            <p className="text-primary text-2xl md:text-[64px] font-bold">
               Shocking and Emotional
             </p>
             <p className="font-normal text-sm md:text-[32px] text-black">
