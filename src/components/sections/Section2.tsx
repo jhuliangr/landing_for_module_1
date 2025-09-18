@@ -33,8 +33,8 @@ function Section2() {
           </div>
         </div>
       </div>
-      <div className="absolute right-0 top-0 w-10 md:w-fit">
-        <Solar />
+      <div className="absolute right-0 top-0">
+        <Solar className="w-10 md:w-fit"/>
       </div>
     </div>
   );

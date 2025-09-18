@@ -55,7 +55,7 @@ function Section4() {
         ))}
       </div>
       <p className="md:w-100 text-center text-base">
-        From there, <span className="text-primary font-bold poppins">SafeBox</span> was born: a technological, sustainable solution
+        From there, <span className="text-primary font-bold">SafeBox</span> was born: a technological, sustainable solution
         designed for people like you, who seek freedom and peace of mind.
       </p>
       <div className="py-20 flex items-center justify-center w-full gap-20 flex-wrap mx-auto">
