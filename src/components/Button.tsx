@@ -11,10 +11,10 @@ function Button({
     <button
       type={type}
       className={`cursor-pointer w-full md:w-fit py-[15px] px-10 rounded-[100px] ${
-        variant === "primary" ? "bg-[#092754] " : "border-[#092754] border-2"
+        variant === "primary" ? "bg-primary " : "border-primary border-2"
       } `}
     >
-      <p className={`font-bold text-sm md:text-[22px] ${variant === "primary"? "text-[#FFE5AF]": "text-[#092754]"}`}>{text}</p>
+      <p className={`font-bold text-sm md:text-[22px] ${variant === "primary"? "text-secondary": "text-primary"}`}>{text}</p>
     </button>
   );
 }
