@@ -2,7 +2,7 @@ import Button from "../Button";
 
 function Section5() {
   return (
-    <div className="md:h-[1080px] py-5 relative flex items-center justify-center w-[80%] mx-auto">
+    <div className="md:h-[1080px] py-5 relative flex flex-wrap items-center justify-center w-[80%] mx-auto">
       <div className="w-8/12 flex flex-col gap-[60px]">
         <p className="text-primary text-[64px] font-bold">
           Enjoy the beach as it should be: worry-free.
@@ -17,7 +17,7 @@ function Section5() {
       <img
         src="/assets/pictures/2.png"
         alt="lockers"
-        className="size-[500px] overflow-hidden rounded-[999px]"
+        className="md:size-[500px] size-48 overflow-hidden rounded-[999px] my-10 md:my-0"
       />
     </div>
   );

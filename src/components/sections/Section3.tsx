@@ -30,25 +30,25 @@ const ITEMS = [
 
 function Section3() {
   return (
-    <div className="md:h-[1080px] py-5 relative">
-      <div className="w-full flex justify-between items-center px-10">
-        <p className="text-primary text-2xl md:text-[64px] font-bold">
+    <div className="md:h-[1080px] py-16 md:py-5 relative">
+      <div className="w-full flex justify-between items-center px-10 ">
+        <p className="text-primary text-4xl md:text-2xl md:text-[64px] w-full text-center md:text-left font-bold">
           Why SafeBox?
         </p>
-        <WavesGroup position="top-10 right-3 w-[90px] md:w-fit" />
+        <WavesGroup position="top-10 right-3 w-[90px] md:w-fit hidden md:flex" />
       </div>
-      <div className="grid md:grid-cols-2 w-[80%] mx-auto pt-10 gap-[100px]">
+      <div className="grid md:grid-cols-2 w-[80%] mx-auto pt-10 gap-9 md:gap-[100px]">
         {ITEMS.map((item, i) => (
           <div key={i} className="flex items-center flex-col text-center">
             <div className="text-primary">
-              <item.icon />
+              <item.icon className="size-[72px] md:size-fit"/>
             </div>
-            <p className="text-[50px] font-bold">{item.title}</p>
-            <p className="text-3xl">{item.text}</p>
+            <p className="text-2xl md:text-[50px] font-bold">{item.title}</p>
+            <p className="text-sm md:text-3xl">{item.text}</p>
           </div>
         ))}
       </div>
-      <div className="absolute bottom-0">
+      <div className="absolute bottom-0 hidden md:block">
         <Umbrella className="h-80" />
       </div>
     </div>

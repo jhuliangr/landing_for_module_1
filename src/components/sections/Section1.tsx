@@ -4,17 +4,17 @@ import { WavesGroup } from "../WavesGroup";
 function Section1() {
   return (
     <div className="md:h-[1080px] grid md:grid-cols-2">
-      <div className="relative h-[100vh] md:h-full">
+      <div className="relative pt-56 pb-20 md:pt-0 md:h-full">
         <div className="h-full flex justify-center items-center max-w-[100vw]">
           <div className="flex flex-col justify-center items-center w-[80%] md:w-[654px] gap-10">
-            <p className="text-primary text-2xl md:text-[64px] font-bold">
+            <p className="text-primary text-4xl md:text-[64px] font-bold">
               Shocking and Emotional
             </p>
             <p className="font-normal text-sm md:text-[32px] text-black">
               With SafeBox, the smart solar-powered sand lockers, you can store
               your valuables and enjoy the beach without worries.
             </p>
-            <div className="flex flex-wrap gap-10 justify-start w-full">
+            <div className="flex gap-10 justify-start w-full">
               <Button type="button" text="Book your locker" />
               <Button
                 type="button"
@@ -24,9 +24,9 @@ function Section1() {
             </div>
           </div>
         </div>
-        <WavesGroup position="absolute bottom-10 left-5" />
+        <WavesGroup position="hidden md:flex absolute bottom-10 left-5" />
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-8 gap-5 px-5 md:px-0 pb-20">
+      <div className="hidden md:grid grid-cols-3 md:grid-cols-8 gap-5 px-5 md:px-0 pb-20">
         <div className="md:col-span-3 flex items-center">
           <img
             src="/assets/pictures/1.png"
