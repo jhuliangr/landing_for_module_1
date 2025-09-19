@@ -19,5 +19,5 @@ pnpm build
 ```
 - 4: Run your production build. 
 ```batch
-pnpm start
+pnpm preview
 ```
