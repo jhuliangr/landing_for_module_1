@@ -30,28 +30,24 @@ const ITEMS = [
 
 function Section3() {
   return (
-    <div className="md:h-[1080px] py-16 md:py-5 relative">
-      <div className="w-full flex justify-between items-center px-10 ">
-        <p className="text-primary text-4xl md:text-2xl md:text-[64px] w-full text-center md:text-left font-bold">
-          Why SafeBox?
-        </p>
-        <WavesGroup position="top-10 right-3 w-[90px] md:w-fit hidden md:flex" />
-      </div>
-      <div className="grid md:grid-cols-2 w-[80%] mx-auto pt-10 gap-9 md:gap-[100px]">
+    <section className="min-h-screen py-20 lg:py-50 md:py-5  px-3 md:px-10 lg:px-30 relative">
+      <WavesGroup position="absolute top-1 right-3 hidden md:flex" />
+      <h2 className="text-primary text-4xl md:text-6xl w-full text-center md:text-left font-bold mb-10">
+        Why SafeBox?
+      </h2>
+      <ul className="grid md:grid-cols-2 mx-auto pt-10 gap-x-10 gap-y-16 md:gap-y-40">
         {ITEMS.map((item, i) => (
-          <div key={i} className="flex items-center flex-col text-center">
+          <li key={i} className="flex items-center flex-col text-center gap-5">
             <div className="text-primary">
-              <item.icon className="size-[72px] md:size-fit"/>
+              <item.icon className="size-[72px] md:size-fit" />
             </div>
-            <p className="text-2xl md:text-[50px] font-bold">{item.title}</p>
-            <p className="text-sm md:text-3xl">{item.text}</p>
-          </div>
+            <h3 className="text-xl md:text-2xl font-bold">{item.title}</h3>
+            <p className="text-base">{item.text}</p>
+          </li>
         ))}
-      </div>
-      <div className="absolute bottom-0 hidden md:block">
-        <Umbrella className="h-80" />
-      </div>
-    </div>
+      </ul>
+      <Umbrella className="absolute bottom-0 left-0 h-80 hidden md:flex" />
+    </section>
   );
 }
 
