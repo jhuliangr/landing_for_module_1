@@ -10,7 +10,7 @@ function Button({
   return (
     <button
       type={type}
-      className={`cursor-pointer max-md:w-full py-2 px-4 rounded-[100px] ${
+      className={`cursor-pointer max-md:w-full py-2 px-6 rounded-[100px] ${
         variant === "primary" ? "bg-primary border-2 border-primary" : "border-primary border-2"
       } `}
     >

@@ -30,7 +30,7 @@ const ITEMS = [
 
 function Section3() {
   return (
-    <section className="min-h-screen py-20 lg:py-50 md:py-5  px-3 md:px-10 lg:px-30 relative">
+    <section className="min-h-screen py-20 lg:py-50 px-3 md:px-10 lg:px-30 relative">
       <WavesGroup position="absolute top-1 right-3 hidden md:flex" />
       <h2 className="text-primary text-4xl md:text-6xl w-full text-center md:text-left font-bold mb-10">
         Why SafeBox?
